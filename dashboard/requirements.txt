@@ -4,3 +4,7 @@ plotly>=5.18
 pandas>=2.2
 numpy>=1.26
 scipy>=1.13
+dash_mantine_components
+pyaml
+alpaca-py
+yfinance

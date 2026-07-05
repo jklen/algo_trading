@@ -68,7 +68,7 @@ Two strategies are defined:
 
 1. **`HigherHighStrategy`** — a VectorBT `IndicatorFactory` wrapping `hh_hl_strategy_logic`. Detects consecutive higher highs/higher lows (entry) and lower highs (exit). Parameters: `window_entry`, `hh_hl_counts`, `window_exit`, `lh_counts`.
 
-2. **`hhhl_ml1_strategy_logic`** — ML-enhanced version. Iterates all parameter combinations of HHHL, gets ML model probability for each, and selects the highest-probability entry signal above a threshold.
+2. **`hhhl_ml1_strategy_logic`** — ML-enhanced version. Iterates all parameter combinations of HHHL, gets ML model probability for each, and selects the highest-probability exit signal above a threshold.
 
 ### Data & Indicators (`src/calpha/utils_strategy.py`)
 

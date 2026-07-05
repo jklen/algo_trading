@@ -21,7 +21,7 @@ Historical data (yfinance / Alpaca)
   run_strategy.py               ← discover best HHHL params per symbol
         │
         ▼
-  hhhl_ml1_train_models_prod.py ← train ML model per symbol
+  hhhl_ml1_train_models_prod.py ← train ML model per symbol to get exit params with highest probability of positive return.
         │
         ▼
   hhhl_ml1_backtest.py          ← evaluate models on historical splits

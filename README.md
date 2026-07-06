@@ -35,6 +35,31 @@ Historical data (yfinance / Alpaca)
 
 ---
 
+## Dashboard
+
+A Dash web app for monitoring the live portfolio: equity curves, returns, open/closed trades, ratios, and a parallel-coordinates symbol explorer for comparing strategy performance across the full symbol universe.
+
+<table>
+<tr>
+<td width="50%"><img src="assets/screenshots/whole_portfolio_overview.png" alt="Whole portfolio overview"/><br/><sub>Whole portfolio — overview</sub></td>
+<td width="50%"><img src="assets/screenshots/whole_portfolio_equity.png" alt="Whole portfolio equity"/><br/><sub>Whole portfolio — equity</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/screenshots/whole_portfolio_returns.png" alt="Whole portfolio returns"/><br/><sub>Whole portfolio — returns</sub></td>
+<td width="50%"><img src="assets/screenshots/subportfolios_overview.png" alt="Subportfolios overview"/><br/><sub>Subportfolios — overview</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/screenshots/subportfolios_trades.png" alt="Subportfolios trades"/><br/><sub>Subportfolios — trades</sub></td>
+<td width="50%"><img src="assets/screenshots/subportfolios_ratios.png" alt="Subportfolios ratios"/><br/><sub>Subportfolios — ratios</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/screenshots/strategies_open_positions.png" alt="Strategy open positions"/><br/><sub>Strategies — open positions</sub></td>
+<td width="50%"><img src="assets/screenshots/symbols_parallel_coordinates.png" alt="Symbols parallel coordinates"/><br/><sub>Symbols — parallel-coordinates explorer</sub></td>
+</tr>
+</table>
+
+---
+
 ## Project structure
 
 ```

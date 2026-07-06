@@ -1,4 +1,4 @@
-# Cataclysmic Alpha
+# CAlpha
 
 An automated algorithmic trading system that combines technical analysis with machine learning to identify and execute trading opportunities across stocks and crypto. It discovers optimal strategy parameters per symbol, trains an ML model to predict winning trades, and executes a diversified 200-symbol portfolio via the Alpaca API.
 
@@ -63,7 +63,7 @@ A Dash web app for monitoring the live portfolio: equity curves, returns, open/c
 ## Project structure
 
 ```
-cataclysmic_alpha/
+algot_trading/
 ├── src/calpha/                        # Core library
 │   ├── strategies.py                  # HHHL and HHHL ML1 strategy logic
 │   ├── utils_strategy.py              # Data fetching, technical indicators
@@ -89,6 +89,12 @@ cataclysmic_alpha/
 │   ├── app.py
 │   ├── utils.py
 │   └── requirements.txt
+│
+├── dashboard_demo/                    # Read-only clone of the dashboard for demo/screenshot purposes
+│   ├── app_demo.py                    # Runs on its own port, no Alpaca dependency
+│   └── utils_demo.py                  # Synthetic per-trade data derived from real symbol_state stats
+│
+├── assets/screenshots/                # Dashboard screenshots used in this README
 │
 ├── experiment_notebooks/              # Strategy research and analysis notebooks
 ├── sql/queries.sql                    # Reference SQL for dashboard queries
